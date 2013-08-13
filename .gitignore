@@ -1,1 +1,8 @@
+# compiled Python files
 *.pyc
+
+# site static files
+public/media/*
+!public/media/.gitkeep
+public/static/*
+!public/static/.gitkeep
