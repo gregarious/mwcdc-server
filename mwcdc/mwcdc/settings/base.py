@@ -133,6 +133,7 @@ INSTALLED_APPS = (
     'easy_thumbnails',
 
     # our apps
+    'places',
     'skyline',
 )
 
