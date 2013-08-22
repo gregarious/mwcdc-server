@@ -12,7 +12,7 @@ class Place(models.Model):
 	hours = models.TextField(blank=True)
 	fb_id = models.CharField(max_length=20, blank=True)
 	twitter_id = models.CharField(max_length=20, blank=True)
-	zip_code = models.CharField(max_length=10, default='15211')
+	zip_code = models.CharField(max_length=10, default='15211', blank=True)
 	phone = models.CharField(max_length=20, blank=True)
 	contact_email = models.EmailField(blank=True)
 	website = models.URLField(blank=True)
