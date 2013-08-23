@@ -8,6 +8,9 @@ class InterestPoint(models.Model):
 	address = models.TextField(blank=True)
 	image = ThumbnailerImageField(blank=True, upload_to='images')
 
+	def __unicode__(self):
+		return self.name
+
 class Viewpoint(models.Model):
 	name = models.CharField(max_length=50)
 	address = models.CharField(max_length=100, blank=True, help_text='Street address only')
@@ -15,12 +18,20 @@ class Viewpoint(models.Model):
 	longitude = models.DecimalField(max_digits=9, decimal_places=6)
 
 	skyline_image = ThumbnailerImageField(blank=True, upload_to='images')
-	interest_points = models.ManyToManyField(InterestPoint, through='InteresetPointMapping')
+	interest_points = models.ManyToManyField(InterestPoint, through='InterestPointMapping')
 
-class InteresetPointMapping(models.Model):
+	def __unicode__(self):
+		return self.name
+
+
+class InterestPointMapping(models.Model):
 	interest_point = models.ForeignKey(InterestPoint)
 	viewpoint = models.ForeignKey(Viewpoint)
-	
+
 	label = models.CharField(max_length=20, help_text="Label used to help keep admins oriented")
 	x = models.IntegerField(help_text="x-coordinate of point on viewpoint image")
 	y = models.IntegerField(help_text="y-coordinate of point on viewpoint image")
+
+	def __unicode__(self):
+		return "%s (%s from %s)" % (self.label, unicode(self.interest_point),
+			unicode(self.viewpoint))
