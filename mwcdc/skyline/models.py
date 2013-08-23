@@ -33,5 +33,5 @@ class InterestPointMapping(models.Model):
 	y = models.IntegerField(help_text="y-coordinate of point on viewpoint image")
 
 	def __unicode__(self):
-		return "%s (%s from %s)" % (self.label, unicode(self.interest_point),
-			unicode(self.viewpoint))
+		return "%s/%s: %s" % (unicode(self.viewpoint), self.label,
+			unicode(self.interest_point))
