@@ -24,8 +24,8 @@ class Viewpoint(models.Model):
 
 
 class InterestPointMapping(models.Model):
-	interest_point = models.ForeignKey(InterestPoint)
 	viewpoint = models.ForeignKey(Viewpoint)
+	interest_point = models.ForeignKey(InterestPoint)
 
 	label = models.CharField(max_length=20, help_text="Label used to help keep admins oriented")
 	x = models.IntegerField(help_text="x-coordinate of point on viewpoint image")
