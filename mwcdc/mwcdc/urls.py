@@ -4,6 +4,7 @@ from django.contrib import admin
 from rest_framework import routers
 
 from places.views import PlaceViewSet
+from skyline.views import ViewpointViewSet
 
 admin.autodiscover()
 
@@ -21,5 +22,5 @@ urlpatterns = patterns('',
 
 router = routers.SimpleRouter()
 router.register(r'places', PlaceViewSet)
-
+router.register(r'viewpoints', ViewpointViewSet)
 urlpatterns += router.urls
