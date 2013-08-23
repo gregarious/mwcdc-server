@@ -1,0 +1,13 @@
+{% extends "admin/change_form.html" %}
+
+{% block messages %}
+    <ul class="messagelist">{% for message in messages %}
+      <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+    {% if user.is_superuser %}
+        <li class="error">Hey superuser! Remember most Place data comes from an external source and can be overwritten at any time.</li>
+	{% else %}
+	   <li class="warning">Note that most Place information is stored on the server hosting <a href="http://mwcdc.org/">http://mwcdc.org</a>. Please go there if you would like to edit any of the read-only information on this form.</li>
+    {% endif %}
+    </ul>
+{% endblock %}

@@ -8,15 +8,13 @@ This time, it's *personal*.
 
 The Django admin site will have two different access levels: superuser and
 editor. Scenable gets superuser access, MWCDC staff get editor access. The main
-reason is to disable access to editing the relations involved with Skyline view point configuration.
+reason is to disable access to editing the relations involved with Skyline view and the Place information being pulled from O2DCA.
 
 To configure this on a deployment:
 
 1. Create a new Group with the following permissions:
 
-	- `<Permission: places | place | Can add place>`
 	- `<Permission: places | place | Can change place>`
-	- `<Permission: places | place | Can delete place>`
 	- `<Permission: skyline | interest point | Can change interest point>`
 	- `<Permission: skyline | viewpoint | Can change viewpoint>`
 

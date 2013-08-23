@@ -17,3 +17,6 @@ class Place(models.Model):
 	contact_email = models.EmailField(blank=True)
 	website = models.URLField(blank=True)
 	category = models.CharField(max_length=20, blank=True)
+
+	def __unicode__(self):
+		return self.name
