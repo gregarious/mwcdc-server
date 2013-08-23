@@ -12,12 +12,8 @@ class PlaceViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = PlaceSerializer
 
 class SearchPlaces(APIView):
-    '''
-    Plain ol' Django view to handle searches.
-
-    Super naive right now. Will add better search backend later.
-    '''
     def get(self, request, format=None):
+        # super naive right now. Will add better search backend later
         query = request.GET.get('q', '')
         places = []
         if query:
