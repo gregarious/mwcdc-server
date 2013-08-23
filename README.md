@@ -2,9 +2,9 @@
 
 This time, it's *personal*.
 
-# Deploy notes
+## Deploy notes
 
-## Admin site
+### Admin site
 
 The Django admin site will have two different access levels: superuser and
 editor. Scenable gets superuser access, MWCDC staff get editor access. The main
