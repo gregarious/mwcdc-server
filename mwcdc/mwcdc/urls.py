@@ -3,7 +3,7 @@ from django.contrib import admin
 
 from rest_framework import routers
 
-from places.views import PlaceViewSet
+from places.views import PlaceViewSet, SearchPlaces
 from skyline.views import ViewpointViewSet
 
 admin.autodiscover()
@@ -24,3 +24,7 @@ router = routers.SimpleRouter()
 router.register(r'places', PlaceViewSet)
 router.register(r'viewpoints', ViewpointViewSet)
 urlpatterns += router.urls
+
+urlpatterns += patterns('',
+    url(r'^search/$', SearchPlaces.as_view()),
+)
