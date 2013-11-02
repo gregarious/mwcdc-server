@@ -1,4 +1,4 @@
-from base import *
+from mwcdc.settings.base import *
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
