@@ -39,7 +39,6 @@ class SerializedObjectSyncer(object):
 				was_changed = True
 
 		if was_changed:
-			print 'merge ', obj.id
 			obj.save()
 
 	def transform_fields(self, data):
@@ -90,7 +89,6 @@ class SerializedObjectSyncer(object):
 		model_fields = self.model_class._meta.get_all_field_names()
 
 		for data_dict in data:
-			print data_dict
 			data_id = data_dict.get('id')
 			if data_id is not None:
 				data_dict = self.transform_fields(data_dict)
@@ -98,7 +96,6 @@ class SerializedObjectSyncer(object):
 				try:
 					obj = self.model_class.objects.get(id=data_id)
 				except:
-					print 'new ', data_id
 					self.create_object(data_dict)
 				else:
 					self.merge_fields(obj, data_dict)
