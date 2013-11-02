@@ -20,5 +20,8 @@ class Place(models.Model):
 	category_id = models.IntegerField()
 	category_label = models.CharField(max_length=20)
 
+	# temporary field in place of `image` until image importing is in place
+	external_image_url = models.URLField(blank=True)
+
 	def __unicode__(self):
 		return self.name

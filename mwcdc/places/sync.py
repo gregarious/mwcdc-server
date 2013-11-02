@@ -1,4 +1,5 @@
 from places.serializers import PlaceSyncingSerializer
+from places.geocoding import geocode_address
 
 import collections
 import logging
@@ -62,6 +63,9 @@ class SerializedObjectSyncer(object):
 
 		if 'hours' in data:
 			data['hours'] = unicode(data['hours'])
+
+		if 'image_url' in data:
+			data['external_image_url'] = data['image_url']
 
 		return data
 
