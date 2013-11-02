@@ -22,8 +22,8 @@ urlpatterns = patterns('',
 )
 
 router = routers.SimpleRouter()
-router.register(r'places', PlaceViewSet)
-router.register(r'viewpoints', ViewpointViewSet)
+router.register(r'^api/places/', PlaceViewSet)
+router.register(r'^api/viewpoints/', ViewpointViewSet)
 urlpatterns += router.urls
 
 urlpatterns += patterns('',
