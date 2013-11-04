@@ -19,7 +19,13 @@ import os
 # if running multiple sites in the same mod_wsgi process. To fix this, use
 # mod_wsgi daemon mode with each site in its own daemon process, or use
 # os.environ["DJANGO_SETTINGS_MODULE"] = "mwcdc.settings"
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mwcdc.settings")
+# 
+# Purposefully commenting this out: we require this to be set as an env vbl
+# os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mwcdc.settings")
+from django.core.exceptions import ImproperlyConfigured
+if os.environ.get("DJANGO_SETTINGS_MODULE") is None:
+	raise ImproperlyConfigured('Must define environment variable named DJANGO_SETTINGS_MODULE')
+
 
 # This application object is used by any WSGI server configured to use this
 # file. This includes Django's development server, if the WSGI_APPLICATION
