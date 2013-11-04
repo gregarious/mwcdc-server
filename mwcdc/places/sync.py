@@ -1,11 +1,11 @@
 from places.serializers import PlaceSyncingSerializer
-from places.geocoding import geocode_address
 
 import collections
 import logging
 import json
 import urllib2
 import re
+import HTMLParser
 
 from copy import copy
 
@@ -116,12 +116,23 @@ def pull_data(place_id=None):
 	if place_id is not None:
 		raise Exception('place_id support is not yet in place')
 
+	parser = HTMLParser.HTMLParser()
 	try:
 		f = urllib2.urlopen('http://testing6.o2dca.com/app/places.php')
-		data_maps = json.load(f)
-	except URLError as e:
+		raw = f.read()
+	except urllib2.URLError as e:
 		logging.error(u'problem contacting server: %s' % unicode(e.reason))
-
+		return []
+	finally:
+		f.close()
+	
+	# server response is currently HTML -- could have some undesired HTML encodings
+	try:
+		decoded_raw = parser.unescape(raw)
+	except HTMLParser.HTMLParseError:
+		decoded_raw = raw
+	data_maps = json.loads(decoded_raw)
+	
 	# strip out md5 code
 	data_maps.pop('md5')
 
