@@ -22,10 +22,11 @@ import os
 
 # Temp solution to SetEnv problem
 os.environ['DJANGO_SETTINGS_MODULE'] = 'mwcdc.settings.production'
-os.environ['PYTHONPATH'] = '/home/scenable/webapps/mwcdc/mwcdc-server/mwcdc'
 os.environ['DATABASE_URL'] = 'postgres://scenable_mwcdc:scratch-mary-pentagon-center@localhost/scenable_mwcdc\
 '
 os.environ['SECRET_KEY'] = 'jmsfq=l)$o4)to$c5qva2mqXj#)1ynx&n0apPj(_9d!^izj*(3'\
+import sys
+sys.path.insert(0, '/home/scenable/webapps/mwcdc/mwcdc-server/mwcdc')
 
 # This application object is used by any WSGI server configured to use this
 # file. This includes Django's development server, if the WSGI_APPLICATION
