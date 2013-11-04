@@ -24,7 +24,7 @@ import os
 os.environ['DJANGO_SETTINGS_MODULE'] = 'mwcdc.settings.production'
 os.environ['DATABASE_URL'] = 'postgres://scenable_mwcdc:scratch-mary-pentagon-center@localhost/scenable_mwcdc\
 '
-os.environ['SECRET_KEY'] = 'jmsfq=l)$o4)to$c5qva2mqXj#)1ynx&n0apPj(_9d!^izj*(3'\
+os.environ['SECRET_KEY'] = 'jmsfq=l)$o4)to$c5qva2mqXj#)1ynx&n0apPj(_9d!^izj*(3'
 import sys
 sys.path.insert(0, '/home/scenable/webapps/mwcdc/mwcdc-server/mwcdc')
 
