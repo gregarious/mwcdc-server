@@ -27,10 +27,8 @@ class InterestPointMapping(models.Model):
 	viewpoint = models.ForeignKey(Viewpoint)
 	interest_point = models.ForeignKey(InterestPoint)
 
-	label = models.CharField(max_length=20, help_text="Label used to help keep admins oriented")
 	x = models.IntegerField(help_text="x-coordinate of point on viewpoint image")
 	y = models.IntegerField(help_text="y-coordinate of point on viewpoint image")
 
 	def __unicode__(self):
-		return "%s/%s: %s" % (unicode(self.viewpoint), self.label,
-			unicode(self.interest_point))
+		return "%s: %s" % (unicode(self.interest_point), unicode(self.viewpoint))
