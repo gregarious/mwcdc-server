@@ -27,3 +27,5 @@ MEDIA_ROOT = os.path.join(
 								os.path.dirname(	# settings
 									os.path.abspath(__file__)))))),
 				'mwcdc-server_assets/media/')
+
+ALLOWED_HOSTS = ['mwcdc.scenable.com']
