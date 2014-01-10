@@ -1,0 +1,1226 @@
+[
+  {
+    "pk": 9,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Opened spring 2001. The stadium has the feel of an early, classic ballpark such as Forbes Field, Wrigley Field and Fenway Park, yet embraces the progressiveness of Pittsburgh. The entire stadium has a breathtaking view of the Pittsburgh skyline across the Allegheny River. Capacity: 38,362",
+      "name": "PNC Park",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 2,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Also known as the USX Tower, the skyscraper has 67 floors and was constructed in 1970. The tallest building in Pittsburgh\u2019s iconic skyline, it features a plaza open to the public that often holds artist or holiday exhibits.",
+      "name": "U.S. Steel Tower",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 3,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Considered the \u201ccrown jewel\u201d of Pittsburgh\u2019s skyline, PPG Place is adjacent to the historic Market Square. The buildings are neo-gothic style, clad in reflective glass, and have been featured in several movies. PPG is comprised of six buildings (One- 40 stories; Two, Three, Four and Five 6- stories; Six- 14 stories) and features an indoor Wintergarden and large plaza that features large fountains in warm months and an ice skating rink in cold months.",
+      "name": "One PPG Place",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 4,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "This 55 story, eight-sided skyscraper completed in 1983 is the second-tallest building in Pittsburgh. Previous names for the building include Dravo Tower, and 1 Mellon Bank Center. It is currently used as offices for The Bank of New York Mellon. BNY Mellon Center is 98th tallest building in the U.S and is the tallest building constructed in Pittsburgh in the 1980s.",
+      "name": "BNY Mellon Center",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 5,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Located in the heart of Pittsburgh\u2019s Central Business District, this building houses office and retail space along with dining, a sports bar, garden, and an outdoor terrace (featured in The Atrium).",
+      "name": "One Oxford Centre",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 6,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Formerly known as Fort Duquesne, the French began construction on the Fort in April 1754 but ordered it destroyed in 1758 upon the approach of General John Forbes.  General Forbes, who led an expedition in November 1758 (after the Treaty of Easton) and prompted the destruction of Fort Duquesne, instructed colonists to build Fort Pitt.  The fort was constructed during the French and Indian War from 1759-61, next to the former Fort Duquesne site.",
+      "name": "Fort Pitt",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 7,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Also known as Highmark Place, this building offers shopping, dining, and banking all under one roof. It opened in 1988 and consists of 29 floors of office space rising above two levels of specialty shops and a three-level underground garage. The building anchors the Gateway corridor and is at the threshold of Pittsburgh\u2019s Central Business District and Cultural District.",
+      "name": "Fifth Avenue Place",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 8,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Located at the confluence of the three rivers where the Allegheny River and the Monongahela River join to form the Ohio River, at the tip of the \u201cGolden Triangle.\u201d  Pittsburgh is the largest metropolitan area on the Ohio River. The park contains and commemorates the strategic and historic background of the area during the French and Indian War.  In 1975, Point State Park was deemed a National Historic Landmark.",
+      "name": "Point State Park",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 10,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "This trail is a section of the Three Rivers Heritage Trail, a 22 mile urban rail-trail that parallels the riverbanks. The North Shore Trail extends along the northern shore of the Allegheny River for eight miles (from Brunot Island, beyond downtown Pittsburgh to Millvale, PA).",
+      "name": "North Shore Trail",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 11,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Completed in 2003, this is the only convention center in the world with LEED Gold Certification in new construction and Platinum Certification in existing building. The convention center is flexible, functional, and has state of the art technology to share with show organizers, exhibitors, and guests. One popular feature is the outdoor space available, which includes a large water feature and several terraces.",
+      "name": "David L. Lawrence Convention Center",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 12,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "This recently renovated hotel features unbeatable river views and is directly across the street from Point State Park with professional, friendly service.",
+      "name": "Wyndham Grand Pittsburgh Downtown",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 13,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "This high-rise office building is located in the Central Business District of Pittsburgh. Constructed on the former First National Bank Building site in 1972, One PNC stands 30 stories and features the world\u2019s largest green wall, a living wall constructed of plants.",
+      "name": "One PNC Plaza",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 14,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Formerly known as Westinghouse Tower, this 23-floor building is comprised of offices whose tenants include IBM, the Allegheny Conference on Community Development, the Brunner advertising firm and the local headquarters of First Niagara Financial Group.",
+      "name": "11 Stanwix Street",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 15,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Roberto Clemente Bridge (Sixth Street Bridge), Andy Warhol Bridge (Seventh Street Bridge), and Rachel Carson Bridge (Ninth Street Bridge).  These were designed by the Allegheny County Department of Public Works and were built over a four year span from 1924-28 by the American Bridge Company. The Sisters permit transportation across the Allegheny River to the North Side neighborhoods.",
+      "name": "The 3 Sisters Bridges",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 16,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "This 325 mile long river runs through the state of New York and Pennsylvania.  Like the Monongahela river, it is located on the northern Allegheny Plateau.  The Allegheny provides the northernmost drainage in the watershed of the Mississippi River, and offers 25 trails along the river in Pennsylvania alone. ",
+      "name": "Allegheny River",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 17,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Nicknamed \u201cthe Mon\u201d by locals, it flows 127 miles on the Allegheny Plateau in West Virginia and Southwestern Pennsylvania. The Mon meets the Allegheny River forming the Ohio River at Pittsburgh\u2019s Point State Park. The Mon offers great points of interest along the banks including  WVU Core Arboretum.  ",
+      "name": "Monongahela River",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 18,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Clocking in at 981 miles, the source of the Ohio is the Allegheny River in Allegany Township, Potter County, PA (secondary source is the Monongahela River in Fairmont West Virginia) and the mouth on the Mississippi River in Cairo, Illinois/ Ballard County Kentucky. Because the Ohio flows westward, it was a major route for pioneers traveling west. ",
+      "name": "Ohio River",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 19,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "AGH is an internationally known hospital known for its excellence and innovation in education, research, and patient care. Thomas Healthcare declared AGH one of the country\u2019s 100 Top Hospitals. A national leader in cardiovascular, cancer, neuroscience, orthopaedic and rehabilitation care, the facility provides orthopedic and rehabilitation care for the Pittsburgh Pirates.",
+      "name": "Allegheny General Hospital",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 20,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Chancellor John G. Bowman inspired local industries to donate all materials needed (steel, cement, elevators, plumbing, heating elements, etc.) for his envisioned home for the University in 1921.  Local children were given the opportunity to \u201cbuy a brick\u201d for the Cathedral for 10 cents. The first classes were held in 1931, and the building was formally dedicated in 1937. Included in the Cathedral are the Nationality Classrooms, academic and administrative offices, libraries, computer labs, a print shop, a food court, and a theater.  The National Register of Historic Places lists the 535-foot tall Cathedral as the second tallest educational building in the world.  ",
+      "name": "University of Pittsburgh\u2019s Cathedral of Learning",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 21,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Comprised of four separate buildings (Gateway Center One through Four and the Wyndham Grand Pittsburgh Downtown), the major tenants include Dollar Bank whose corporate headquarters is located in Three Gateway Center, and KDKA-TV and KDKA radio studios in One Gateway Center.  The building has 1,500,000 square feet of office space in five buildings which are included in the Renaissance Historic District in downtown Pittsburgh.",
+      "name": "Gateway Center",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 22,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "More commonly called the Oliver Building, this is a 25-story skyscraper located across from Mellon Square in Pittsburgh.  The building holds commercial offices, and in late 2013, the upper floors of the Oliver were being remodeled to create a 230 room Embassy Suites Hotel.",
+      "name": "Henry W. Oliver Building",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 23,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "A 44-story building and one of the most recognizable skyscrapers in downtown Pittsburgh.  The Art Deco tower, crowned with a pyramid, was built as the headquarters of the Gulf Oil Corporation, a leading oil company in the 1930\u2019s. The lighting at the top of the building currently provides a weather forecast using a color-coded system. Out of the top of the pyramid flashes a beam of light celebration of the Pittsburgh Pirates home runs, attributed to a receptionist at the building who happens to be a big fan of the Pirates.",
+      "name": "Gulf Tower",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 24,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Also known as Citizens Bank Tower, it is the third largest office building by square feet in downtown Pittsburgh.  After recent renovations since it was awarded an Energy Star label and a Gold Level LEED certification.  A private tunnel used by tenants runs between this building and One BNY Mellon Center on Grant Street, under the Union Trust building.",
+      "name": "525 William Penn Place",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 25,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Completed in 1930, the building has an Art Deco facade and houses 40 stories of commercial offices.  The building is best known for the radio antenna that formerly rose from the tower\u2019s roof and had an aviation beacon that spelled out \u201cP-I-T-T-S-B-U-R-G-H\u201d in Morse Code.  This message could be seen as far as 150 miles away on clear nights.  Although the original beacon has been removed, a smaller version took its place, broadcasting the same Morse Code message. ",
+      "name": "Grant Building",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 26,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "A private, Catholic University located in downtown Pittsburgh.  Princeton Review names Duquesne one of the Best Colleges for 2014.",
+      "name": "Duquesne University",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 29,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "This is the first new condominium constructed in Pittsburgh\u2019s \u201cGolden Triangle\u201d since 1968.   ",
+      "name": "151 First Side",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 30,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Del Monte\u2019s size nearly tripled in 2002, forcing them to establish a headquarters on the East Coast.  They selected a building in Pittsburgh that is located on a portion of where the Three Rivers Stadium formerly sat.  ",
+      "name": "Del Monte Foods Building",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 31,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Gateway Towers is surrounded by the Cultural District and is one block from Market Square. ",
+      "name": "Gateway Towers Condominiums",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 32,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Formerly known as CNG Tower and Dominion Tower, EQT Plaza serves as the corporate headquarters and several business units for EQT Corporation.  The Plaza was completed in 1987 and has 32 floors.  Its design was influenced by The Gulf Tower and Grant Building (also in Pittsburgh).",
+      "name": "EQT Plaza",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 33,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Also known as PNC Center and National City Center, 20 Stanwix was built in 1982 and stands 20 stories tall. The building has 360,000 square feet of finished space in the prime Central Business District with views of both downtown Pittsburgh and the Monongahela River.  ",
+      "name": "20 Stanwix Street",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 35,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Opened September 2000, the five story building holds PNC\u2019s bank operations, and other technology driven services.  The Center is the largest building and the first financial institution to receive silver LEED certification in the United States.",
+      "name": "PNC Firstside Center",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 36,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Smithfield Street Bridge was built in 1883 and is Pittsburgh\u2019s oldest river bridge.  Despite its age, it still functions as one of the main connections between the northern and southern shores of the Monongahela River. It offers both automobile transit as well as a pedestrian walkway between the \u201cGolden Triangle\u201d and Station Square.",
+      "name": "Smithfield Street Bridge",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 27,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "This high-rise building is used solely for government purposes.  Construction of the 15-floor building ended in 1955.",
+      "name": "State Office Building",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 37,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Home to the Pittsburgh Steelers and the University of Pittsburgh Panthers.  Heinz Field opened August 25, 2001, replaced Three Rivers Stadium, which hosted the Pittsburgh Pirates (MLB), Pittsburgh Steelers (NFL), and the Pitt Panthers. Seating Capacity: 65,000 ",
+      "name": "Heinz Field",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 38,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Built in 1900, the Landmarks Building once housed the Pittsburgh Terminal Train Station. It is currently home to two of Pittsburgh\u2019s premier restaurants: The Grand Concourse and the Gandy Dancer.",
+      "name": "Landmarks Building",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 39,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "The Eliza Furnace Trail is named after the site where the Jones and Laughlin Steel Company once operated its Eliza furnaces. It is on Monongahela River\u2019s north bank and leads east to Oakland where it connects to the Panther Hollow Trail.",
+      "name": "Three Rivers Heritage Trail",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 40,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Construction was completed in 1968 on one of the most distinctive buildings in Pittsburgh\u2019s skyline.  The building was most recently known as One Oliver Plaza until 2007 when the international law firm K&L Gates became the largest tenant in the building.  It shares a city block with the three PNC Plaza buildings.  Beneath the building is Wood Street Station which is part of Pittsburgh\u2019s light rail network.  ",
+      "name": "K&L Gates Center",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 41,
+    "model": "skyline.interestpoint",
+    "fields": {
+      "description": "Station Square is one of Pittsburgh\u2019s most popular tourist attractions.  It features dining, nightlife, entertainment, and shopping all on the Monongahela riverfront.  The Square was originally used to meet passengers arriving on the Pittsburgh & Lake Erie Railroad. Station Square now offers restaurants, the Freight House Shops, Bessemer Court, Pittsburgh Tour Company, and Highmark Stadium, home of the Pittsburgh Riverhounds soccer team.",
+      "name": "Station Square",
+      "image": "",
+      "address": ""
+    }
+  },
+  {
+    "pk": 2,
+    "model": "skyline.viewpoint",
+    "fields": {
+      "latitude": "40.438477",
+      "skyline_image": "",
+      "name": "Duquesne Incline",
+      "longitude": "-80.019465",
+      "address": ""
+    }
+  },
+  {
+    "pk": 1,
+    "model": "skyline.viewpoint",
+    "fields": {
+      "latitude": "40.431647",
+      "skyline_image": "",
+      "name": "Mon Incline",
+      "longitude": "-80.006502",
+      "address": ""
+    }
+  },
+  {
+    "pk": 3,
+    "model": "skyline.viewpoint",
+    "fields": {
+      "latitude": "40.433733",
+      "skyline_image": "",
+      "name": "Wabash Overlook",
+      "longitude": "-80.010225",
+      "address": ""
+    }
+  },
+  {
+    "pk": 4,
+    "model": "skyline.viewpoint",
+    "fields": {
+      "latitude": "40.434513",
+      "skyline_image": "",
+      "name": "McCardle Overlook",
+      "longitude": "-80.011293",
+      "address": ""
+    }
+  },
+  {
+    "pk": 2,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 125,
+      "x": 44,
+      "interest_point": 37,
+      "viewpoint": 1
+    }
+  },
+  {
+    "pk": 4,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 92,
+      "x": 419,
+      "interest_point": 3,
+      "viewpoint": 1
+    }
+  },
+  {
+    "pk": 7,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 304,
+      "x": 787,
+      "interest_point": 38,
+      "viewpoint": 1
+    }
+  },
+  {
+    "pk": 8,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 167,
+      "x": 842,
+      "interest_point": 35,
+      "viewpoint": 1
+    }
+  },
+  {
+    "pk": 12,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 164,
+      "x": 1048,
+      "interest_point": 39,
+      "viewpoint": 1
+    }
+  },
+  {
+    "pk": 14,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 145,
+      "x": 296,
+      "interest_point": 14,
+      "viewpoint": 1
+    }
+  },
+  {
+    "pk": 15,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 172,
+      "x": 362,
+      "interest_point": 29,
+      "viewpoint": 1
+    }
+  },
+  {
+    "pk": 16,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 532,
+      "x": 101,
+      "interest_point": 40,
+      "viewpoint": 1
+    }
+  },
+  {
+    "pk": 17,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 112,
+      "x": 606,
+      "interest_point": 22,
+      "viewpoint": 1
+    }
+  },
+  {
+    "pk": 18,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 111,
+      "x": 656,
+      "interest_point": 24,
+      "viewpoint": 1
+    }
+  },
+  {
+    "pk": 19,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 275,
+      "x": 323,
+      "interest_point": 41,
+      "viewpoint": 1
+    }
+  },
+  {
+    "pk": 20,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 246,
+      "x": 497,
+      "interest_point": 17,
+      "viewpoint": 1
+    }
+  },
+  {
+    "pk": 5,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 210,
+      "x": 715,
+      "interest_point": 36,
+      "viewpoint": 1
+    }
+  },
+  {
+    "pk": 24,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 121,
+      "x": 794,
+      "interest_point": 5,
+      "viewpoint": 2
+    }
+  },
+  {
+    "pk": 25,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 242,
+      "x": 592,
+      "interest_point": 6,
+      "viewpoint": 2
+    }
+  },
+  {
+    "pk": 26,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 140,
+      "x": 553,
+      "interest_point": 7,
+      "viewpoint": 2
+    }
+  },
+  {
+    "pk": 27,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 278,
+      "x": 433,
+      "interest_point": 8,
+      "viewpoint": 2
+    }
+  },
+  {
+    "pk": 28,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 185,
+      "x": 211,
+      "interest_point": 9,
+      "viewpoint": 2
+    }
+  },
+  {
+    "pk": 29,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 256,
+      "x": 143,
+      "interest_point": 10,
+      "viewpoint": 2
+    }
+  },
+  {
+    "pk": 30,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 172,
+      "x": 417,
+      "interest_point": 11,
+      "viewpoint": 2
+    }
+  },
+  {
+    "pk": 31,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 190,
+      "x": 527,
+      "interest_point": 12,
+      "viewpoint": 2
+    }
+  },
+  {
+    "pk": 32,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 196,
+      "x": 620,
+      "interest_point": 13,
+      "viewpoint": 2
+    }
+  },
+  {
+    "pk": 33,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 166,
+      "x": 748,
+      "interest_point": 14,
+      "viewpoint": 2
+    }
+  },
+  {
+    "pk": 34,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 188,
+      "x": 350,
+      "interest_point": 15,
+      "viewpoint": 2
+    }
+  },
+  {
+    "pk": 35,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 241,
+      "x": 280,
+      "interest_point": 16,
+      "viewpoint": 2
+    }
+  },
+  {
+    "pk": 36,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 308,
+      "x": 584,
+      "interest_point": 17,
+      "viewpoint": 2
+    }
+  },
+  {
+    "pk": 37,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 308,
+      "x": 295,
+      "interest_point": 18,
+      "viewpoint": 2
+    }
+  },
+  {
+    "pk": 21,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 90,
+      "x": 636,
+      "interest_point": 2,
+      "viewpoint": 2
+    }
+  },
+  {
+    "pk": 40,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 146,
+      "x": 469,
+      "interest_point": 7,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 41,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 114,
+      "x": 744,
+      "interest_point": 4,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 42,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 137,
+      "x": 784,
+      "interest_point": 5,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 43,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 151,
+      "x": 213,
+      "interest_point": 19,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 44,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 138,
+      "x": 863,
+      "interest_point": 20,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 45,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 196,
+      "x": 331,
+      "interest_point": 12,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 47,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 130,
+      "x": 642,
+      "interest_point": 23,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 49,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 154,
+      "x": 827,
+      "interest_point": 25,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 50,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 172,
+      "x": 944,
+      "interest_point": 26,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 51,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 202,
+      "x": 407,
+      "interest_point": 27,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 52,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 225,
+      "x": 566,
+      "interest_point": 33,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 53,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 216,
+      "x": 609,
+      "interest_point": 29,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 54,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 194,
+      "x": 483,
+      "interest_point": 14,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 55,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 218,
+      "x": 131,
+      "interest_point": 16,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 56,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 305,
+      "x": 281,
+      "interest_point": 17,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 58,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 206,
+      "x": 140,
+      "interest_point": 30,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 59,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 184,
+      "x": 338,
+      "interest_point": 9,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 60,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 195,
+      "x": 402,
+      "interest_point": 31,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 61,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 201,
+      "x": 447,
+      "interest_point": 12,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 63,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 157,
+      "x": 590,
+      "interest_point": 7,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 64,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 199,
+      "x": 601,
+      "interest_point": 14,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 65,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 135,
+      "x": 634,
+      "interest_point": 32,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 66,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 119,
+      "x": 677,
+      "interest_point": 3,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 67,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 213,
+      "x": 726,
+      "interest_point": 33,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 68,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 144,
+      "x": 753,
+      "interest_point": 23,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 70,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 107,
+      "x": 806,
+      "interest_point": 2,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 71,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 149,
+      "x": 814,
+      "interest_point": 24,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 72,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 120,
+      "x": 862,
+      "interest_point": 4,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 73,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 136,
+      "x": 913,
+      "interest_point": 5,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 74,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 162,
+      "x": 949,
+      "interest_point": 25,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 75,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 204,
+      "x": 1053,
+      "interest_point": 35,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 76,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 159,
+      "x": 1067,
+      "interest_point": 26,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 77,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 257,
+      "x": 309,
+      "interest_point": 6,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 78,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 245,
+      "x": 83,
+      "interest_point": 16,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 79,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 289,
+      "x": 888,
+      "interest_point": 17,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 62,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 215,
+      "x": 546,
+      "interest_point": 27,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 80,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 185,
+      "x": 509,
+      "interest_point": 21,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 46,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 162,
+      "x": 638,
+      "interest_point": 22,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 39,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 124,
+      "x": 543,
+      "interest_point": 3,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 23,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 104,
+      "x": 710,
+      "interest_point": 4,
+      "viewpoint": 2
+    }
+  },
+  {
+    "pk": 22,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 134,
+      "x": 676,
+      "interest_point": 3,
+      "viewpoint": 2
+    }
+  },
+  {
+    "pk": 69,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 182,
+      "x": 763,
+      "interest_point": 22,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 57,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 272,
+      "x": 45,
+      "interest_point": 8,
+      "viewpoint": 4
+    }
+  },
+  {
+    "pk": 38,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 103,
+      "x": 700,
+      "interest_point": 2,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 48,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 142,
+      "x": 694,
+      "interest_point": 24,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 81,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 167,
+      "x": 386,
+      "interest_point": 21,
+      "viewpoint": 3
+    }
+  },
+  {
+    "pk": 6,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 104,
+      "x": 700,
+      "interest_point": 5,
+      "viewpoint": 1
+    }
+  },
+  {
+    "pk": 3,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 66,
+      "x": 691,
+      "interest_point": 2,
+      "viewpoint": 1
+    }
+  },
+  {
+    "pk": 11,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 70,
+      "x": 727,
+      "interest_point": 4,
+      "viewpoint": 1
+    }
+  },
+  {
+    "pk": 10,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 100,
+      "x": 764,
+      "interest_point": 25,
+      "viewpoint": 1
+    }
+  },
+  {
+    "pk": 13,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 134,
+      "x": 965,
+      "interest_point": 26,
+      "viewpoint": 1
+    }
+  },
+  {
+    "pk": 9,
+    "model": "skyline.interestpointmapping",
+    "fields": {
+      "y": 98,
+      "x": 991,
+      "interest_point": 20,
+      "viewpoint": 1
+    }
+  }
+]
