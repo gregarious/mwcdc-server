@@ -22,9 +22,9 @@ To configure this on a deployment:
 	- `is_staff = True`
 	- `groups` includes the Group created above
 
-### Dotcloud
+### Dotcloud deployment cheatsheet
 
-Quick dotcloud cheatsheet:
+*(Note that dotcloud-specific config settings are only set in the deploy-dotcloud branch)*
 
 #### Pushing repository
 
@@ -42,7 +42,3 @@ Then, to import, run `dotcloud env list` to get all the database env options, an
 in this command:
 
 > psql --username=<USENAME> --password --port=<PORT> --host=<HOST> mwcdcserverapp_production < dump.sql
-
-
-> # import data (be sure that pg_dump has the following flags set: --format=plain --no-owner --clean --no-privileges)
-> psql --username=root --password --port=2669 --host=mwcdcappserver-mountwashington.azva.dotcloud.net mwcdcserverapp_production < dump.sql
