@@ -1,5 +1,7 @@
 cd mwcdc
 
+python scripts/mkdatabase.py
+
 python manage.py syncdb --noinput
 python manage.py migrate
 python scripts/mkadmin.py
