@@ -21,3 +21,28 @@ To configure this on a deployment:
 * New users from MWCDC should have the following settings:
 	- `is_staff = True`
 	- `groups` includes the Group created above
+
+### Dotcloud
+
+Quick dotcloud cheatsheet:
+
+#### Pushing repository
+
+The project is currently just set to deploy using rsync, using:
+
+> dotcloud push
+
+#### Importing/exporting data
+
+To import data to the Dotcloud db instance, first create the dump file as follows:
+
+> pg_dump --format=plain --no-owner --clean --no-privileges mwcdc_development > dump.sql
+
+Then, to import, run `dotcloud env list` to get all the database env options, and use them 
+in this command:
+
+> psql --username=<USENAME> --password --port=<PORT> --host=<HOST> mwcdcserverapp_production < dump.sql
+
+
+> # import data (be sure that pg_dump has the following flags set: --format=plain --no-owner --clean --no-privileges)
+> psql --username=root --password --port=2669 --host=mwcdcappserver-mountwashington.azva.dotcloud.net mwcdcserverapp_production < dump.sql
