@@ -8,7 +8,7 @@ from places.models import Place
 from places.serializers import PlaceSerializer
 
 class PlaceViewSet(viewsets.ReadOnlyModelViewSet):
-    queryset = Place.objects.all()
+    queryset = Place.objects.order_by('name')
     serializer_class = PlaceSerializer
 
 class SearchPlaces(APIView):
