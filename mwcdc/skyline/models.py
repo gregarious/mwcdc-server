@@ -16,7 +16,6 @@ class Viewpoint(models.Model):
 	latitude = models.DecimalField(max_digits=9, decimal_places=6)
 	longitude = models.DecimalField(max_digits=9, decimal_places=6)
 
-	skyline_image = ThumbnailerImageField(blank=True, upload_to='images')
 	interest_points = models.ManyToManyField(InterestPoint, through='InterestPointMapping')
 
 	def __unicode__(self):
