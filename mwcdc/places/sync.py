@@ -32,9 +32,13 @@ class SerializedObjectSyncer(object):
 
 		serialized_model = self.serializer_class(obj).data
 		for field, value in serialized_model.items():
+			if field == 'zip_code':
+				continue
 			if field not in data:
-				logger.warning(u'data has no `%s` attribute!' % field)
+				logger.warning(u'Data has no `%s` attribute!' % field)
 			elif value != data.get(field):
+				if not value.startswith('http'):
+					logger.debug('Merging on id %s: field `%s` value %s to %s'  % (str(obj.id), field, str(value), str(data.get(field))))
 				obj.__setattr__(field, data.get(field))
 				was_changed = True
 
@@ -49,6 +53,7 @@ class SerializedObjectSyncer(object):
 		data = copy(data)
 		if 'content' in data:
 			data['description'] = data.pop('content')
+
 		if 'category' in data:
 			category_dict = data.pop('category')
 			data['category_id'] = int(category_dict['id'])
@@ -64,11 +69,20 @@ class SerializedObjectSyncer(object):
 			data['hours'] = unicode(data['hours'])
 
 		if 'image_url' in data:
-			data['external_image_url'] = data['image_url']
-
+			# TODO: add image copying
+			# if None or False, make it blank string
+			if data['image_url']:
+				data['external_image_url'] = data['image_url']
+			else:
+				data['external_image_url'] = ''
+			
 		return data
 
 	def filter_fields(self, data, valid_fields):
+		'''
+		Return data with all key/values removed with keys not present
+		in valid_fields.
+		'''
 		filtered_data = dict()
 		for k, v in data.items():
 			if k in valid_fields:
@@ -93,35 +107,29 @@ class SerializedObjectSyncer(object):
 			if data_id is not None:
 				data_dict = self.transform_fields(data_dict)
 				data_dict = self.filter_fields(data_dict, model_fields)
+				# either get and merge the object, or create a new one
 				try:
 					obj = self.model_class.objects.get(id=data_id)
-				except:
+				except self.model_class.DoesNotExist:
 					self.create_object(data_dict)
 				else:
 					self.merge_fields(obj, data_dict)
 			else:
-				logger.warning('`id` not found in incoming data.')
+				logger.error('`id` not found in incoming data.')
 
 
 syncer = SerializedObjectSyncer(PlaceSyncingSerializer)
 
-def pull_data(place_id=None):
+def pull_data():
 	'''
 	Pulls data from external API and returns list or dict of it.
-
-	If `place_id` is provided, individual Place resource will be accessed
-	and individual dict will be returned. If omitted, entire collection will
-	be requested and a list of dicts will be returned.
 	'''
-	if place_id is not None:
-		raise Exception('place_id support is not yet in place')
-
 	parser = HTMLParser.HTMLParser()
 	try:
-		f = urllib2.urlopen('http://testing6.o2dca.com/app/places.php')
+		f = urllib2.urlopen('http://mwcdc.org/app/places.php')
 		raw = f.read()
 	except urllib2.URLError as e:
-		logging.error(u'problem contacting server: %s' % unicode(e.reason))
+		logging.error(u'Problem contacting server: %s' % unicode(e.reason))
 		return []
 	finally:
 		f.close()
@@ -141,8 +149,4 @@ def pull_data(place_id=None):
 
 def sync_all():
 	data = pull_data()
-	syncer.sync_objects_with_data(data)
-
-def sync_one(place_id):
-	data = pull_data(place_id)
 	syncer.sync_objects_with_data(data)
