@@ -3,6 +3,7 @@ from django.contrib import admin
 
 class PlaceModelAdmin(admin.ModelAdmin):
 	exclude = ('category_id', 'external_image_url',)
+	ordering = ('name',)
 
 	def get_readonly_fields(self, request, obj=None):
 		if not request.user.is_superuser:
