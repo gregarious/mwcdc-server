@@ -3,7 +3,7 @@ from easy_thumbnails.fields import ThumbnailerImageField
 
 class InterestPoint(models.Model):
 	name = models.CharField(max_length=50)
-	address = models.CharField(max_length=100, blank=True, help_text='Street address only')
+	address = models.CharField(max_length=100, blank=True, help_text='Street address (only include if different from name)')
 	description = models.TextField(blank=True)
 	image = ThumbnailerImageField(blank=True, upload_to='images')
 
