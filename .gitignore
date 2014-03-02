@@ -6,3 +6,5 @@ public/media/*
 !public/media/.gitkeep
 public/static/*
 !public/static/.gitkeep
+
+/backups
