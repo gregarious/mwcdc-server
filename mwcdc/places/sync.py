@@ -32,7 +32,8 @@ class SerializedObjectSyncer(object):
 
 		serialized_model = self.serializer_class(obj).data
 		for field, value in serialized_model.items():
-			if field == 'zip_code':
+			# ignore these two fields: we don't expect them
+			if field == 'zip_code' or field == 'fb_id_transformed':
 				continue
 			if field not in data:
 				logger.warning(u'Data has no `%s` attribute!' % field)
