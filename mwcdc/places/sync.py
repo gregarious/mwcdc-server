@@ -38,8 +38,7 @@ class SerializedObjectSyncer(object):
 			if field not in data:
 				logger.warning(u'Data has no `%s` attribute!' % field)
 			elif value != data.get(field):
-				if not value.startswith('http'):
-					logger.debug('Merging on id %s: field `%s` value %s to %s'  % (str(obj.id), field, str(value), str(data.get(field))))
+				logger.debug(u'Merging on id %s: field `%s` value %s to %s'  % (unicode(obj.id), unicode(field), unicode(value), unicode(data.get(field))))
 				obj.__setattr__(field, data.get(field))
 				was_changed = True
 
