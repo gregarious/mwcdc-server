@@ -1,0 +1,2 @@
+MAILTO="greg.nicholas@gmail.com"
+0 0 * * *	python /home/dotcloud/current/mwcdc/scripts/syncplaces.py
