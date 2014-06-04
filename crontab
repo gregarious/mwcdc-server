@@ -1,2 +1,2 @@
 MAILTO="greg.nicholas@gmail.com"
-0 0 * * *	python /home/dotcloud/current/mwcdc/scripts/syncplaces.py
+0 0 * * *	PYTHONPATH=/home/dotcloud/current SECRET_KEY=abcdefgh /home/dotcloud/env/bin/python /home/dotcloud/current/mwcdc/scripts/syncplaces.py
